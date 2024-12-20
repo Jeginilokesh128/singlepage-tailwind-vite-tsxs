@@ -1,0 +1,75 @@
+total -13 buttons are present
+
+Name
+Type
+Default
+Description
+
+--------------
+diffent data types
+primitive datatye
+Boolean
+
+
+Boolean value (true and false) if call then it become true
+if we not call false
+
+
+-------------input tag(props)
+name
+placeholder
+value
+type(text,email,password,rest,submit,colr,file,date,url,tel,number)
+----
+
+
+checkbox
+select(dropdown)
+-----------------
+import React from 'react'
+
+export default function Inputcomponent() {
+  return (
+    <div>
+     
+           
+                <TextField
+        label="Pick a Color"
+        type="file"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
+      <TextField
+        label="Pick a Color"
+        type="search"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
+      <TextField
+        label="Pick a Color"
+        type="time"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
+      <TextField
+        label="Pick a Color"
+        type="url"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+      />
+    </div>
+  );
+}
+
+
+
+// props 
+// type 
+// props calling 
+// function calling
+
+

@@ -1,6 +1,12 @@
 import { useState } from "react";
-import { jsx } from "react/jsx-runtime";
-
+import BoxBasic from "./components/Box.tsx"
+import {
+  Radio,
+  RadioGroup,
+  FormControl,
+  FormControlLabel,
+  FormLabel,
+} from "@mui/material";
 // Define the type for the data object
 interface Data {
   name: string;
@@ -28,6 +34,7 @@ const App: React.FC = () => {
       <h2>{`${data.name}`}</h2>
       {/* Pass the `data` as a prop to `ChildComponent` */}
       <Childcomponet data={data} />
+      <BoxBasic/>
     </>
   );
 };
